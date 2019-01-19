@@ -24,6 +24,7 @@ class Welcome extends CI_Controller {
 
 		echo "<pre>";
 		print_r($tt);
+		echo "</pre>";
 		exit();
 		
 		$this->load->view('welcome_message');
